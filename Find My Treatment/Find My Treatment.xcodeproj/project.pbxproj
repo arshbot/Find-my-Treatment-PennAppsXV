@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1F054651E33FD8E0006A5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F054641E33FD8E0006A5D6 /* AppDelegate.swift */; };
+		C1F054671E33FD8E0006A5D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F054661E33FD8E0006A5D6 /* ViewController.swift */; };
+		C1F0546A1E33FD8E0006A5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F054681E33FD8E0006A5D6 /* Main.storyboard */; };
+		C1F0546C1E33FD8E0006A5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */; };
+		C1F0546F1E33FD8E0006A5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0546D1E33FD8E0006A5D6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1F054611E33FD8E0006A5D6 /* Find My Treatment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Treatment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F054641E33FD8E0006A5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F054661E33FD8E0006A5D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F054691E33FD8E0006A5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F0546E1E33FD8E0006A5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1F054701E33FD8E0006A5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F0545E1E33FD8D0006A5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1F054581E33FD8D0006A5D6 = {
+			isa = PBXGroup;
+			children = (
+				C1F054631E33FD8E0006A5D6 /* Find My Treatment */,
+				C1F054621E33FD8E0006A5D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F054621E33FD8E0006A5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F054611E33FD8E0006A5D6 /* Find My Treatment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F054631E33FD8E0006A5D6 /* Find My Treatment */ = {
+			isa = PBXGroup;
+			children = (
+				C1F054641E33FD8E0006A5D6 /* AppDelegate.swift */,
+				C1F054661E33FD8E0006A5D6 /* ViewController.swift */,
+				C1F054681E33FD8E0006A5D6 /* Main.storyboard */,
+				C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */,
+				C1F0546D1E33FD8E0006A5D6 /* LaunchScreen.storyboard */,
+				C1F054701E33FD8E0006A5D6 /* Info.plist */,
+			);
+			path = "Find My Treatment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F054601E33FD8D0006A5D6 /* Find My Treatment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F054731E33FD8E0006A5D6 /* Build configuration list for PBXNativeTarget "Find My Treatment" */;
+			buildPhases = (
+				C1F0545D1E33FD8D0006A5D6 /* Sources */,
+				C1F0545E1E33FD8D0006A5D6 /* Frameworks */,
+				C1F0545F1E33FD8D0006A5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find My Treatment";
+			productName = "Find My Treatment";
+			productReference = C1F054611E33FD8E0006A5D6 /* Find My Treatment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F054591E33FD8D0006A5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Harsha Goli";
+				TargetAttributes = {
+					C1F054601E33FD8D0006A5D6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JMP9D48WN6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1F0545C1E33FD8D0006A5D6 /* Build configuration list for PBXProject "Find My Treatment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F054581E33FD8D0006A5D6;
+			productRefGroup = C1F054621E33FD8E0006A5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F054601E33FD8D0006A5D6 /* Find My Treatment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F0545F1E33FD8D0006A5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0546F1E33FD8E0006A5D6 /* LaunchScreen.storyboard in Resources */,
+				C1F0546C1E33FD8E0006A5D6 /* Assets.xcassets in Resources */,
+				C1F0546A1E33FD8E0006A5D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F0545D1E33FD8D0006A5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F054671E33FD8E0006A5D6 /* ViewController.swift in Sources */,
+				C1F054651E33FD8E0006A5D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F054681E33FD8E0006A5D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F054691E33FD8E0006A5D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F0546D1E33FD8E0006A5D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0546E1E33FD8E0006A5D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F054711E33FD8E0006A5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F054721E33FD8E0006A5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F054741E33FD8E0006A5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMP9D48WN6;
+				INFOPLIST_FILE = "Find My Treatment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harsha.Find-My-Treatment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1F054751E33FD8E0006A5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMP9D48WN6;
+				INFOPLIST_FILE = "Find My Treatment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harsha.Find-My-Treatment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F0545C1E33FD8D0006A5D6 /* Build configuration list for PBXProject "Find My Treatment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F054711E33FD8E0006A5D6 /* Debug */,
+				C1F054721E33FD8E0006A5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F054731E33FD8E0006A5D6 /* Build configuration list for PBXNativeTarget "Find My Treatment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F054741E33FD8E0006A5D6 /* Debug */,
+				C1F054751E33FD8E0006A5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F054591E33FD8D0006A5D6 /* Project object */;
+}
