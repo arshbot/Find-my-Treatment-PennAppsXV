@@ -13,6 +13,7 @@
 		C1F0546A1E33FD8E0006A5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F054681E33FD8E0006A5D6 /* Main.storyboard */; };
 		C1F0546C1E33FD8E0006A5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */; };
 		C1F0546F1E33FD8E0006A5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0546D1E33FD8E0006A5D6 /* LaunchScreen.storyboard */; };
+		C1F054771E34062A0006A5D6 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F054761E34062A0006A5D6 /* MapViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +21,12 @@
 		B87C127926F8AD69BF530E4F /* Pods-Find My Treatment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Treatment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find My Treatment/Pods-Find My Treatment.release.xcconfig"; sourceTree = "<group>"; };
 		C1F054611E33FD8E0006A5D6 /* Find My Treatment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Treatment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F054641E33FD8E0006A5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F054661E33FD8E0006A5D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F054661E33FD8E0006A5D6 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1F054691E33FD8E0006A5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F0546E1E33FD8E0006A5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F054701E33FD8E0006A5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F054761E34062A0006A5D6 /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
 		FA808DD067368DAB096179E1 /* Pods-Find My Treatment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Treatment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find My Treatment/Pods-Find My Treatment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			children = (
 				C1F054641E33FD8E0006A5D6 /* AppDelegate.swift */,
 				C1F054661E33FD8E0006A5D6 /* ViewController.swift */,
+				C1F054761E34062A0006A5D6 /* MapViewViewController.swift */,
 				C1F054681E33FD8E0006A5D6 /* Main.storyboard */,
 				C1F0546B1E33FD8E0006A5D6 /* Assets.xcassets */,
 				C1F0546D1E33FD8E0006A5D6 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F054771E34062A0006A5D6 /* MapViewViewController.swift in Sources */,
 				C1F054671E33FD8E0006A5D6 /* ViewController.swift in Sources */,
 				C1F054651E33FD8E0006A5D6 /* AppDelegate.swift in Sources */,
 			);
